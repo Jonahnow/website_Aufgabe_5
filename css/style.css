@@ -3,7 +3,7 @@
   color: green;
 }
 
-#sidebar{
+.sidebar{
   background-color: lightgrey;
   font-size: inherit;
   position: absolute;
