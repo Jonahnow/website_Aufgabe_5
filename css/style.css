@@ -9,12 +9,13 @@
   position: absolute;
   top: 0;
   width: 10em;
+  overflow:hidden;
 }
 
 nav{
-  width: inherit;
+  width: match;
 }
 
 html{
-  background-color: lightblue; 
+  background-color: lightblue;
 }
