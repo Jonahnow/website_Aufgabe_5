@@ -1,0 +1,16 @@
+.description{
+  text-align: right;
+  color: green;
+}
+
+#sidebar{
+  background-color: lightgrey;
+  font-size: inherit;
+  position: absolute;
+  top: 0;
+  width: 10em;
+}
+
+nav{
+  width: inherit;
+}
