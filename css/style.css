@@ -3,9 +3,14 @@
   color: green;
 }
 
-nav{
+#sidebar{
   background-color: lightgrey;
-
+  font-size: inherit;
+  position: absolute;
+  top: 0;
+  width: 10em;
 }
 
-div{}
+nav{
+  width: inherit;
+}
