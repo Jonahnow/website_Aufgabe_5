@@ -1,21 +1,14 @@
+
+#navigation {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+.unterseite{
+  line-height: 1.5;
+  font: 15px Verdana bold;
+}
+
 .description{
-  text-align: right;
-  color: green;
-}
-
-.sidebar{
-  background-color: lightgrey;
-  font-size: inherit;
-  position: absolute;
-  top: 0;
-  width: 10em;
-  overflow:hidden;
-}
-
-nav{
-  width: match;
-}
-
-html{
-  background-color: lightblue;
+  text-align: center;
 }
