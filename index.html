@@ -8,21 +8,19 @@
   <link href="css/main.CSS" rel=stylesheet>
 </head>
 <body>
-  <!--header> <img src="media/Vertrieb.jpeg">
-
-  </header> -->
+  <!--header> <img src="media/Vertrieb.jpeg"></header> -->
 
 
 <!-- left sidebar -->
 
 <div class="sidebar">
-  <a class="active" href="#description">Unternehmensbeschreibung</a>
-  <a href="#philos">Firmenphilosophie</a>
-  <a href="#wachstum">Wachstum</a>
-  <a href="#Startup">Startup</a>
-    <a href="#expansion">Expansionspläne</a>
-      <a href="#description">About</a>
-        <a href="#Startup">About</a>
+  <a class="inactive" onclick="buntmacher()" href="#description">Unternehmensbeschreibung</a>
+  <a class="inactive" onclick="buntmacher()" href="#philos">Firmenphilosophie</a>
+  <a class="inactive" onclick="buntmacher()" href="#wachstum">Wachstum</a>
+  <a class="inactive" onclick="buntmacher()" href="#Startup">Startup</a>
+  <a class="inactive" onclick="buntmacher()" href="#expansion">Expansionspläne</a>
+  <a class="inactive" onclick="buntmacher()" href="#description">About</a>
+  <a class="inactive" onclick="buntmacher()" href="#Startup">About</a>
 </div>
 
 
@@ -49,10 +47,11 @@
 </div>
 
   <footer>Hier steht unserer Rechtsform; Adresse; Telefonnummer; email-Adresse; Bankkonto</footer>
+    <script>
+  function buntmacher(){
+    document.getElementsByClassName('sidebar a').class 'active' {}
 
-
-
-
-
+    }
+    </script>
 </body>
 </html>
