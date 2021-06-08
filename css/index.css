@@ -82,6 +82,9 @@ body {
 
 /* Footer */
 .footer {
+  display: flex;
+  justify-content: space-between;
+
   padding: 20px;
   text-align: left;
   background: #ddd;
