@@ -22,6 +22,25 @@ body {
   font-size: 40px;
 }
 
+#bild1
+{
+position:absolute;
+top:10px;
+left:10px;
+width:100px;
+height:100px;
+}
+
+#bild2
+{
+position:absolute;
+top:10px;
+left:10px;
+width:100px;
+height:100px;
+}
+
+
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
@@ -79,6 +98,8 @@ body {
   background-color: navy;
   width: 10%;
   padding: 0px;
+  float: left;
+
 }
 
 /* Footer */
