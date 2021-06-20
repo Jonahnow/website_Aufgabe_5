@@ -10,9 +10,10 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 80px;
+  padding: 0px;
   text-align: center;
   background: #F2F2F2;
+  background-image: url(media/Steine.jpeg);
   /*background:  #1abc9c;
   color: white;*/
 }
